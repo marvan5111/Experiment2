@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Agriculture Enhanced</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        header {
+            background: #2e7d32;
+            color: white;
+            padding: 10px;
+        }
+        .hero img {
+            width: 100%;
+            max-width: 400px;
+        }
+        .welcome {
+            background: white;
+            padding: 20px;
+            margin: 20px;
+        }
+        button {
+            padding: 10px;
+            background: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        video {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Smart Agriculture</h1>
+    </header>
+    <div class="hero">
+        <img src="images/drone-field.jpg" alt="Drone in field">
+    </div>
+    <div class="welcome">
+        <h2>Welcome</h2>
+        <p>Empowering farmers with technology</p>
+        <button id="btn">Learn More</button>
+    </div>
+
+    <!-- HTML5 Video Element -->
+    <section>
+        <h2>Watch Our Demo</h2>
+        <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- HTML5 Form Element -->
+    <form action="#" method="post">
+        <h2>Contact Us</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        document.getElementById('btn').addEventListener('click', function() {
+            alert('Learn more about Smart Agriculture!');
+        });
+    </script>
+</body>
+</html>
